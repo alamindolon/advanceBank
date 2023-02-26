@@ -4,10 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Advance Bank System</title>
 </head>
 <body>
-    <h1>Bank System: <span class="">Bangladesh bank</span></h1>
+    <header>
+        <h1 class="text-center text-2xl mt-8  font-bold">Bank System: <span class="text-orange-700 ">Bangladesh bank</span></h1>
+    </header>
+    <main>
+        <section>
+            <div class="grid grid-cols-3 gap-4 text-center items-center mx-auto w-9/12 mt-12">
+                <div class="bg-orange-300 p-8 rounded-lg">
+                    <h3 class="text-3xl font-bold">Deposite</h3>
+                    <h5 class="text-2xl">$ <span id="depositeID">000</span></h5>
+                </div>
+                <div class="bg-orange-300 p-8 rounded-lg">
+                    <h3 class="text-3xl font-bold">withdraw</h3>
+                    <h5 class="text-2xl">$ <span id="depositeID">000</span></h5>
+                </div>
+                <div class="bg-orange-300 p-8 rounded-lg">
+                    <h3 class="text-3xl font-bold">Balance</h3>
+                    <h5 class="text-2xl">$ <span id="depositeID">000</span></h5>
+                </div>
+            </div>
+        </section>
+        <section class="mt-8">
+            <div class="grid grid-cols-2 gap-4 text-center items-center mx-auto w-9/12">
+                <div class="bg-orange-300 p-8 rounded-lg">
+                    <h3 class="text-3xl font-bold">Deposite</h3>
+                    <input class="mb-4 mt-4" type="text" name="" id=""><br>
+                    <button class="bg-sky-500 px-3 py-2 rounded-lg">submit</button>
+                </div>
+                <div class="bg-orange-300 p-8 rounded-lg">
+                    <h3 class="text-3xl font-bold">Withdraw</h3>
+                    <input class="mb-4 mt-4" type="text" name="" id=""><br>
+                    <button class="bg-sky-500 px-3 py-2 rounded-lg">submit</button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
     
 </body>
 </html>
