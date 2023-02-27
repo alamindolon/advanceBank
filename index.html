@@ -16,15 +16,15 @@
             <div class="grid grid-cols-3 gap-4 text-center items-center mx-auto w-9/12 mt-12">
                 <div class="bg-orange-300 p-8 rounded-lg">
                     <h3 class="text-3xl font-bold">Deposite</h3>
-                    <h5 class="text-2xl">$ <span id="depositeID">000</span></h5>
+                    <h5 class="text-2xl">$ <span id="deposite_show">000</span></h5>
                 </div>
                 <div class="bg-orange-300 p-8 rounded-lg">
                     <h3 class="text-3xl font-bold">withdraw</h3>
-                    <h5 class="text-2xl">$ <span id="depositeID">000</span></h5>
+                    <h5 class="text-2xl">$ <span id="withdraw_show">000</span></h5>
                 </div>
                 <div class="bg-orange-300 p-8 rounded-lg">
                     <h3 class="text-3xl font-bold">Balance</h3>
-                    <h5 class="text-2xl">$ <span id="depositeID">000</span></h5>
+                    <h5 class="text-2xl">$ <span id="balance_filed">1200</span></h5>
                 </div>
             </div>
         </section>
@@ -32,19 +32,20 @@
             <div class="grid grid-cols-2 gap-4 text-center items-center mx-auto w-9/12">
                 <div class="bg-orange-300 p-8 rounded-lg">
                     <h3 class="text-3xl font-bold">Deposite</h3>
-                    <input class="mb-4 mt-4" type="text" name="" id=""><br>
-                    <button class="bg-sky-500 px-3 py-2 rounded-lg">submit</button>
+                    <input class="mb-4 mt-4 w-6/12" type="text" name="" id="deposite_filed"><br>
+                    <button class="bg-sky-500 px-3 py-2 rounded-lg" id="deposite_btn">submit</button>
                 </div>
-                <div class="bg-orange-300 p-8 rounded-lg">
+                <div class="bg-orange-300 p-8 rounded-lg ">
                     <h3 class="text-3xl font-bold">Withdraw</h3>
-                    <input class="mb-4 mt-4" type="text" name="" id=""><br>
-                    <button class="bg-sky-500 px-3 py-2 rounded-lg">submit</button>
+                    <input class="mb-4 mt-4 w-6/12" type="text" name="" id="withdraw_filed"><br>
+                    <button class="bg-sky-500 px-3 py-2 rounded-lg" id="withdraw_btn">submit</button>
                 </div>
 
             </div>
         </section>
     </main>
 
-    
+    <script src="js/deposite.js"></script>
+    <script src="js/withdraw.js"></script>
 </body>
 </html>
